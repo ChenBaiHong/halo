@@ -10,9 +10,9 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     # MySQL database configuration.
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/halo-blog?characterEncoding=utf8&useSSL=false
-    username: baihoo
-    password: baiHoo123!
+    url: jdbc:mysql://127.0.0.1:33306/halo-blog?characterEncoding=utf8&useSSL=false
+    username: root
+    password: baihoo!@#321
   jpa:
     hibernate:
       ddl-auto: update
